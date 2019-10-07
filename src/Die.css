@@ -4,21 +4,26 @@
     color: #6ab7ff;
 }
 
+.Die-rolling {
+    animation-name: wiggle;
+    animation-duration: 1s;
+}
+
 @keyframes wiggle {
-    0% {
-        transform: rotate(10deg);
+    20% {
+        transform: rotate(7deg);
     }
 
-    25% {
-        transform: rotate(-10deg);
+    40% {
+        transform: rotate(-14deg);
     }
 
-    50% {
-        transform: rotate(20deg);
+    60% {
+        transform: rotate(4deg);
     }
 
-    75% {
-        transform: rotate(-5deg);
+    80% {
+        transform: rotate(-2deg);
     }
 
     100% {
